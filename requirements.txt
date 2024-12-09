@@ -1,0 +1,6 @@
+flask
+numpy
+pillow
+open_clip_torch
+pandas
+torch

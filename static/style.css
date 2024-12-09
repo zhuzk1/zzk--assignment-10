@@ -1,0 +1,126 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Group Styling */
+.input-group {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input Field Styling */
+input[type="text"],
+input[type="number"],
+input[type="file"],
+input[type="range"],
+input[type="str"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Range Input Styling */
+input[type="range"] {
+    width: 100%;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Results Section Styling */
+#results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#results img {
+    max-width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Result Item Styling */
+.result-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.result-item img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.result-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Form Sections */
+h2 {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+input[type="file"] {
+    font-size: 1em;
+    margin-top: 5px;
+}

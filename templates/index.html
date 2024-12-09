@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIP Image Search</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>CLIP Image Search</h1>
+    
+    <h2>Text Search</h2>
+    <form id="text-search-form">
+        <input type="text" id="textQuery" placeholder="Enter text query" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <h2>Image Search</h2>
+    <form id="image-search-form" enctype="multipart/form-data">
+        <input type="file" id="imageQuery" accept="image/*" required>
+        <input type="number" id="pcaComponents" placeholder="PCA Components (optional)">
+        <button type="submit">Search</button>
+    </form>
+
+    <h2>Combined Search</h2>
+    <form id="combined-search-form" enctype="multipart/form-data">
+        <input type="text" id="combinedTextQuery" placeholder="Enter text query" required>
+        <input type="file" id="combinedImageQuery" accept="image/*" required>
+        <input type="range" id="weight" min="0" max="1" step="0.1" value="0.5">
+        <label for="weight">Text-Image Weight</label>
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="results" style="display: none;">
+        <h2>Results</h2>
+        <div id="results-container" style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+            
+        </div>
+    </div>
+    
+
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
